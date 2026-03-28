@@ -19,8 +19,8 @@ Takes passenger data (age, gender, ticket class, fare, etc.) and predicts whethe
 | Model | Accuracy |
 |---|---|
 | Baseline (always predict "died") | 62% |
-| Logistic Regression | ~80% |
-| Random Forest | ~81% |
+| Random Forest | ~80% |
+| Logistic Regression | ~81% |
 
 Error analysis revealed both models struggled with the same 19 edge-case survivors, suggesting limitations in the available features rather than the model choice.
 
